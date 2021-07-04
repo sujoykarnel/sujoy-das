@@ -8,8 +8,12 @@ h1{
 .blue-color{
     color: blue;
 }
-.welcome-section{
+.top-section{
     display: flex;
+    margin-bottom: 100px;
+}
+.welcome-section{
+    
     background-image: url(images/welcome.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -29,3 +33,8 @@ h1{
 p{
     text-align: justify;
 }
+.my-dream-section{
+    
+    background-image: url(images/my-dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
