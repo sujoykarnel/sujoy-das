@@ -3,12 +3,12 @@ body{
 }
 h1{
     font-size: 50px;
-    color: gray;
+    color: orange;
 }
 .blue-color{
     color: blue;
 }
-.top-section{
+.flexible_container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -19,8 +19,12 @@ h1{
     background-position: left;
 }
 .half-width{
-    width: 80%;
+    width: 50%;
     padding: 0 2px;
+}
+.half-width img{
+    width: 80%;
+
 }
 .link-button{
     text-decoration: none;
@@ -38,3 +42,22 @@ p{
     background-image: url(images/my-dream.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    width: 40%;
+    margin: 0 5%;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray ;
+
+}
+.exp-brac-aarong{
+    border-left: 10px solid;
+    border-image: linear-gradient(gray, yellow);
+    border-image-slice: 1;
+}
+.exp-friendship{
+    border-left: 10px solid;
+    border-image: linear-gradient(pink, red);
+    border-image-slice: 1;
