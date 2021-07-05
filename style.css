@@ -67,7 +67,7 @@ p{
 }
 .exp-friendship{
     border-left: 10px solid;
-    border-image: linear-gradient(pink, red);
+    border-image: linear-gradient(gray, yellow);
     border-image-slice: 1;
     background-image: url(images/friendship.png);
     background-repeat: no-repeat;
