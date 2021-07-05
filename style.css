@@ -5,6 +5,9 @@ h1{
     font-size: 50px;
     color: orange;
 }
+h3{
+    color: darkslategray;
+}
 .blue-color{
     color: blue;
 }
@@ -23,7 +26,7 @@ h1{
     padding: 0 2px;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 
 }
 .link-button{
@@ -36,6 +39,7 @@ h1{
 }
 p{
     text-align: justify;
+    color: darkolivegreen;
 }
 .my-dream-section{
     
@@ -56,8 +60,21 @@ p{
     border-left: 10px solid;
     border-image: linear-gradient(gray, yellow);
     border-image-slice: 1;
+    background-image: url(images/aarong.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .exp-friendship{
     border-left: 10px solid;
     border-image: linear-gradient(pink, red);
     border-image-slice: 1;
+    background-image: url(images/friendship.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+footer p{
+    color: gray;
+    text-align: center;
+}
